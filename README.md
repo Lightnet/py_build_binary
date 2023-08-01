@@ -71,8 +71,12 @@ python setup.py build_ext --inplace
 
 # Build application bin:
 ```
-pyinstaller --onefile src/main.py
+pyinstaller --onefile --clean src/main.py
 ```
+```
+pyinstaller --onefile -w --clean src/main.py
+```
+
 
 # Refs:
  * https://www.youtube.com/watch?v=sFSLY7n3YsM

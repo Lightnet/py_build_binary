@@ -1,6 +1,7 @@
 .venv
 *.pyd
 *.c
+main.spec
 Pipfile.lock
 dist
 build
