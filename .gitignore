@@ -1,0 +1,9 @@
+.venv
+*.pyd
+*.c
+Pipfile.lock
+dist
+build
+__pycache__
+
+
